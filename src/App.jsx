@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import person from './assets/scenera.png'
 import {Title} from './Title.jsx'
 import { Footer } from './Footer.jsx'
 
@@ -10,7 +11,7 @@ function App() {
     <>
       <article>
         <header>
-          <img className="header_image" alt='personas' src={`/src/assets/scenera.png`}></img>
+          <img className="header_image" alt='personas' src={person}></img>
         </header>
       </article>
       <Title/>
