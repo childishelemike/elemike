@@ -10,7 +10,7 @@ function App() {
     <>
       <article>
         <header>
-          <img className="header_image" alt='' src='/src/scenera.png'></img>
+          <img className="header_image" alt='' src='/src/assets/scenera.png'></img>
         </header>
       </article>
       <Title/>
