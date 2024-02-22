@@ -15,6 +15,7 @@ function App() {
         </header>
       </article>
       <Title/>
+      <Footer/>
     </>
   )
 }

@@ -1,0 +1,27 @@
+.Footer__Article{
+    margin: 0 40px;
+}
+.Footer__Article .Footer__Article--line{
+    border: 1px solid #1F160A;
+}
+.Footer__Article h1{
+    font-family: var(--titlefont-family);
+    color: var(--title-color);
+    font-size: 30px;
+    margin: 10px 0;
+    text-align: center;
+}
+.Footer__Article--div ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Footer__Article--div li,a{
+    list-style: none;
+}
+.Footer__Article--div li{
+    margin: 0 15px 10px;
+}
+.Footer__Article--div img{
+    width: 20px;
+}
