@@ -7,7 +7,9 @@ import { Copy } from './Copy.jsx'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  useEffect(() => {
+    window.location.reload();
+  }, []);
 
   return (
     <>
