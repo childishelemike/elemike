@@ -4,9 +4,11 @@
 .Footer__Article .Footer__Article--line{
     border: 1px solid #1F160A;
 }
-.Footer__Article h1{
+.Footer__Article h1, .Footer__Article--end h3{
     font-family: var(--titlefont-family);
     color: var(--title-color);
+}
+.Footer__Article--h1{
     font-size: 30px;
     margin: 10px 0;
     text-align: center;
@@ -24,4 +26,13 @@
 }
 .Footer__Article--div img{
     width: 20px;
+}
+
+.Footer__Article--h3, .Footer__Article--end p{
+    font-size: 8px;
+}
+.Footer__Article--end{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
