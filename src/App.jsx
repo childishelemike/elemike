@@ -3,6 +3,8 @@ import './App.css'
 import person from './assets/scenera.png'
 import {Title} from './Title.jsx'
 import { Footer } from './Footer.jsx'
+import { Copy } from './Copy.jsx'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +18,7 @@ function App() {
       </article>
       <Title/>
       <Footer/>
+      <Copy/>
     </>
   )
 }

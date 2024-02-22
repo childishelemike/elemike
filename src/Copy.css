@@ -1,0 +1,10 @@
+.Copy__Section p{
+    font-family: var(--titlefont-family);
+    font-size: 6px;
+    color: #60626C;
+}
+.Copy__Section{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
