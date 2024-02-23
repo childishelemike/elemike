@@ -17,7 +17,7 @@ export function Footer() {
                     </li>
 
                     <li><a href='https://github.com/childishelemike'><img src={github}/></a></li> 
-                    <li><a href='https://www.youtube.com/watch?v=4TYv2PhG89A'><img src={music}/></a></li> 
+                    <li><a href='https://www.youtube.com/watch?v=8aVRl5XG-Bs'><img src={music}/></a></li> 
                     
                 </ul>
             </div>
