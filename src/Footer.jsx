@@ -21,6 +21,7 @@ export function Footer() {
                     
                 </ul>
             </div>
+
             <div className='Footer__Article--end'>
                 <div className='Footer__Article--published'>
                     <h3 className='Footer__Article--h3'>Publicado</h3>
@@ -28,8 +29,9 @@ export function Footer() {
                     <p>Marzo 2024</p>
                 </div>
                 <div className='Footer__Article--editors'>
-                <h3 className='Footer__Article--h3'>Editor</h3>
-                    <p>Michael Cruz</p>
+                <h3 className='Footer__Article--h3'>Dedicado a:</h3>
+                    <p>Andrea Torres</p>
+                    <p>Paula Sosa</p>
                 </div>
             </div>
         </footer>
