@@ -1,21 +1,48 @@
 :root {
   --font-family: "Roboto Flex", sans-serif;
   --titlefont-family: "Merriweather", serif;
-  --title-color: #271B0B;
-  --font-color: #7E7E7E;
-  --background-color: #F1EFE4;
+  --title-color: #271b0b;
+  --font-color: #7e7e7e;
+  --background-color: #f1efe4;
 }
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   background-color: var(--background-color);
   color: var(--font-color);
   font-family: var(--font-family);
 }
-.Main__Article{
+.Main__Article {
   margin: 50px 40px 50px;
   text-align: left;
+}
+@media screen and (min-width: 768px) {
+  .Main__Article {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 50px 70px;
+  }
+  .Main__Article--div h1 {
+    font-size: 45px;
+  }
+  .Main__Article--div h3 {
+    font-size: 35px;
+  }
+  .Main__Article--About p,
+  .Main__Article--div p {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .Main__Article--About p:nth-child(1) {
+    margin-top: 0;
+  }
+  .Main__Article--About {
+    padding-left: 61px;
+  }
+  .Main__Article--div {
+    padding-right: 61px;
+  }
 }

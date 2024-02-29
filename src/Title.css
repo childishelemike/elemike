@@ -1,16 +1,18 @@
-.Main__Article--div{
-    color: var(--title-color);
-    font-family: var(--titlefont-family);
-    font-weight: bold;
+.Main__Article--div h1,
+h3 {
+  color: var(--title-color);
+  font-family: var(--titlefont-family);
+  font-weight: bold;
 }
-.Main__Article--div h1{
-    font-size: 35px;
+.Main__Article--div h1 {
+  font-size: 35px;
 }
-.Main__Article--div p{
-    font-size: 17px;
+.Main__Article--div h3 {
+  font-size: 17px;
 }
-.Main__Article--About p{
-    font-family: var(--font-family);
-    font-size: 14px;
-    margin-top: 40px;
+.Main__Article--About p,
+.Main__Article--div p {
+  font-family: var(--font-family);
+  font-size: 14px;
+  margin-top: 40px;
 }
