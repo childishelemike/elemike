@@ -1,10 +1,16 @@
-.Copy__Section p{
-    font-family: var(--titlefont-family);
-    font-size: 6px;
-    color: #60626C;
+.Copy__Section p {
+  font-family: var(--titlefont-family);
+  font-size: 6px;
+  color: #60626c;
 }
-.Copy__Section{
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
+.Copy__Section {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .Copy__Section p {
+    font-size: 10px;
+  }
 }

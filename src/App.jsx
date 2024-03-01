@@ -3,6 +3,7 @@ import person from './assets/scenera.png'
 import {Title} from './Title.jsx'
 import { Footer } from './Footer.jsx'
 import { Copy } from './Copy.jsx'
+import { Analytics } from "@vercel/analytics/react"
 
 
 function App() {
