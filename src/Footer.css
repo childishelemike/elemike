@@ -41,6 +41,10 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+  .Footer__Article--div img {
+    width: 25px;
+  }
+
   .Footer__secondArticle {
     display: flex;
     justify-content: space-between;
@@ -60,5 +64,15 @@ a {
   }
   .Footer__Article--editors {
     padding-left: 20px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .Footer__Article--h3,
+  .Footer__Article--end p {
+    font-size: 12px;
+  }
+  .Footer__Article--h1 {
+    margin-top: 0;
+    font-size: 40px;
   }
 }

@@ -34,7 +34,7 @@ body {
   .Main__Article--About p,
   .Main__Article--div p {
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
   .Main__Article--About p:nth-child(1) {
     margin-top: 0;
@@ -44,5 +44,24 @@ body {
   }
   .Main__Article--div {
     padding-right: 61px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .Main__Article--About p,
+  .Main__Article--div p {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .Main__Article--div h1 {
+    font-size: 100px;
+  }
+  .Main__Article--div h3 {
+    font-size: 35px;
+  }
+  .Main__Article--About {
+    padding-left: 95px;
+  }
+  .Main__Article--div {
+    padding-right: 95px;
   }
 }
