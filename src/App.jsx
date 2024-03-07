@@ -1,9 +1,8 @@
 import './App.css'
-import person from './assets/scenera.png'
-import {Title} from './Title.jsx'
+import person from './assets/mumu.avif'
+import { Title } from './Title.jsx'
 import { Footer } from './Footer.jsx'
 import { Copy } from './Copy.jsx'
-import { Analytics } from "@vercel/analytics/react"
 
 
 function App() {
@@ -14,9 +13,9 @@ function App() {
           <img className="header_image" alt='personas' src={person}></img>
         </header>
       </article>
-      <Title/>
-      <Footer/>
-      <Copy/>
+      <Title />
+      <Footer />
+      <Copy />
     </>
   )
 }

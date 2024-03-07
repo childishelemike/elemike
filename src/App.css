@@ -1,12 +1,12 @@
 .header_image {
   width: 100%;
-  max-height: 592px;
+  height: 500px;
   object-fit: cover;
 }
 @media screen and (min-width: 1024px) {
   .header_image {
     width: 100%;
-    max-height: 490px;
+    max-height: 592px;
     object-fit: cover;
   }
 }
