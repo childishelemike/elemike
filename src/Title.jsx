@@ -1,12 +1,12 @@
 import './Title.css'
 
 export function Title() {
-    return(
+    return (
         <article>
             <main className="Main__Article">
                 <div className="Main__Article--div">
                     <h1>ELEMIKE</h1>
-                    <h3>Marzo 2024</h3>
+                    <h2>Marzo 2024</h2>
                     <p>Gracias a todas las personas que esperaron este momento...</p>
                 </div>
 

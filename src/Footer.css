@@ -5,7 +5,7 @@
   border: 1px solid #1f160a;
 }
 .Footer__Article h1,
-.Footer__Article--end h3 {
+.Footer__Article--end h6 {
   font-family: var(--titlefont-family);
   color: var(--title-color);
 }
@@ -30,7 +30,7 @@ a {
   width: 20px;
 }
 
-.Footer__Article--h3,
+.Footer__Article--h6,
 .Footer__Article--end p {
   font-size: 8px;
 }
@@ -55,7 +55,7 @@ a {
     margin-top: 0;
     font-size: 35px;
   }
-  .Footer__Article--h3,
+  .Footer__Article--h6,
   .Footer__Article--end p {
     font-size: 10px;
   }
@@ -67,7 +67,7 @@ a {
   }
 }
 @media screen and (min-width: 1440px) {
-  .Footer__Article--h3,
+  .Footer__Article--h6,
   .Footer__Article--end p {
     font-size: 12px;
   }

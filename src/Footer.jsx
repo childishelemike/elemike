@@ -20,12 +20,12 @@ export function Footer() {
 
                 <div className='Footer__Article--end'>
                     <div className='Footer__Article--published'>
-                        <h3 className='Footer__Article--h3'>Publicado</h3>
+                        <h6 className='Footer__Article--h6'>Publicado</h6>
                         <p>Edición N°23</p>
                         <p>Marzo 2024</p>
                     </div>
                     <div className='Footer__Article--editors'>
-                        <h3 className='Footer__Article--h3'>Dedicado a:</h3>
+                        <h6 className='Footer__Article--h6'>Dedicado a:</h6>
                         <p>Dilia Torres</p>
                         <p>Andrea Torres</p>
                         <p>Paula Sosa</p>

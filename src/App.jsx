@@ -1,5 +1,5 @@
 import './App.css'
-import person from './assets/mumu.avif'
+import person from './assets/mama.jpg'
 import { Title } from './Title.jsx'
 import { Footer } from './Footer.jsx'
 import { Copy } from './Copy.jsx'

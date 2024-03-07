@@ -1,5 +1,5 @@
 .Main__Article--div h1,
-h3 {
+h2 {
   color: var(--title-color);
   font-family: var(--titlefont-family);
   font-weight: bold;
@@ -7,7 +7,7 @@ h3 {
 .Main__Article--div h1 {
   font-size: 35px;
 }
-.Main__Article--div h3 {
+.Main__Article--div h2 {
   font-size: 17px;
 }
 .Main__Article--About p,
