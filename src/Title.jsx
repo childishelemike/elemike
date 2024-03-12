@@ -1,9 +1,9 @@
 import './Title.css'
 import { motion, MotionConfig } from 'framer-motion'
 export function Title() {
-    const initial = { opacity: 0, y: 50 };
-    const whileInView = { opacity: 1, y: 0, transition: { delay: 0.2, duration: 0.5 } };
-    const viewport = { once: false, amount: 0.5 };
+    const initial = { opacity: 0, x: 50 };
+    const whileInView = { opacity: 1, x: 0, transition: { delay: 0.2, duration: 0.5 } };
+    const viewport = { once: true, amount: 0.5 };
 
     return (
         <MotionConfig reducedMotion='user'>

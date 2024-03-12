@@ -3,6 +3,16 @@
   height: 500px;
   object-fit: cover;
 }
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: #c49e45;
+  transform-origin: 0%;
+}
+
 @media screen and (min-width: 1024px) {
   .header_image {
     width: 100%;
