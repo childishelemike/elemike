@@ -30,10 +30,7 @@ export function Footer() {
                     </div>
                     <div className='Footer__Article--editors'>
                         <h6 className='Footer__Article--h6'>Dedicado a:</h6>
-                        <p>Dilia Torres</p>
                         <p>Andrea Torres</p>
-                        <p>Paula Sosa</p>
-                        <p>Mafe Rubiano</p>
                     </div>
                 </div>
             </article>
