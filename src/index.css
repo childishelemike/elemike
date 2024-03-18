@@ -9,60 +9,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
 }
 body {
+  font-family: var(--font-family);
   background-color: var(--background-color);
   color: var(--font-color);
   font-family: var(--font-family);
-}
-.Main__Article {
-  margin: 50px 40px 50px;
-  text-align: left;
-}
-@media screen and (min-width: 768px) {
-  .Main__Article {
-    display: flex;
-    justify-content: space-between;
-    margin: 50px 50px 70px;
-  }
-  .Main__Article--div h1 {
-    font-size: 45px;
-  }
-  .Main__Article--div h2 {
-    font-size: 35px;
-  }
-  .Main__Article--About p,
-  .Main__Article--div p {
-    font-size: 18px;
-    margin-top: 30px;
-  }
-  .Main__Article--About p:nth-child(1) {
-    margin-top: 0;
-  }
-  .Main__Article--About {
-    padding-left: 61px;
-  }
-  .Main__Article--div {
-    padding-right: 61px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .Main__Article--About p,
-  .Main__Article--div p {
-    font-size: 20px;
-    margin-top: 30px;
-  }
-  .Main__Article--div h1 {
-    font-size: 100px;
-  }
-  .Main__Article--div h3 {
-    font-size: 35px;
-  }
-  .Main__Article--About {
-    padding-left: 95px;
-  }
-  .Main__Article--div {
-    padding-right: 95px;
-  }
 }
