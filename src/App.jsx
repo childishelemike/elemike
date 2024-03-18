@@ -1,22 +1,13 @@
 import './App.css'
-import person from './assets/mama.jpg'
-import { Title } from './Title.jsx'
-import { Footer } from './Footer.jsx'
-import { Copy } from './Copy.jsx'
+import { Home } from './Home.jsx'
+import { Navbar } from './Navbar.jsx'
 
 
 function App() {
   return (
     <>
-      <article>
-        <header>
-          <img className="header_image" alt='personas' src={person}></img>
-        </header>
-      </article>
-      <Title />
-      <Footer />
-      <Copy />
-
+      <Home />
+      <Navbar />
     </>
 
   )
